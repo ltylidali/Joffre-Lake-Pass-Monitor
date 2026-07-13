@@ -77,7 +77,13 @@ python3 -m playwright install chromium
 
 ## Telegram Notification Setup
 
-Create a Telegram bot using @BotFather, then create a `.env` file in the project root:
+Create a Telegram bot using @BotFather, then copy the example environment file:
+
+```bash
+cp .env.example .env
+```
+
+Fill in your own Telegram bot token and chat ID in `.env`:
 
 ```env
 TELEGRAM_BOT_TOKEN=your_bot_token_here
