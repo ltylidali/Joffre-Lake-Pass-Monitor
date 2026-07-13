@@ -19,25 +19,6 @@ This monitor:
 
 The final booking is always completed manually by the user.
 
-## Screenshots
-
-Recommended screenshots to include:
-
-```text
-assets/joffre-booking-page.png
-assets/pass-full.png
-assets/pass-low.png
-assets/telegram-alert.png
-```
-
-Example availability states:
-
-```text
-Pass availability - Full  -> not available
-Pass availability - Low   -> available
-```
-
-Do not upload screenshots containing your Telegram token, chat ID, browser cookies, or personal information.
 
 ## Project Structure
 
