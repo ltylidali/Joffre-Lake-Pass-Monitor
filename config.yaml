@@ -1,0 +1,36 @@
+target:
+  park: "Pipi7iyekw / Joffre Lakes Park"
+  pass_type: "Joffre Lakes - Trail"
+  park_search_terms:
+    - "Pipi7iyekw"
+    - "Pipi7íyekw"
+    - "Joffre Lakes"
+    - "Joffre Lakes Park"
+  dates:
+    - "2026-07-07"
+
+browser:
+  headless: true
+  slow_mo_ms: 0
+  timeout_ms: 30000
+  user_agent: ""
+
+monitor:
+  interval_seconds: 45
+  jitter_seconds: 20
+  save_debug_on_state_change: true
+  debug_verbose: false
+  alert_repeat: false
+  alert_repeat_seconds: 15
+  alert_repeat_window_seconds: 300
+  debug_dir: "debug"
+
+notifications:
+  telegram:
+    enabled: true
+    bot_token_env: "TELEGRAM_BOT_TOKEN"
+    chat_id_env: "TELEGRAM_CHAT_ID"
+  macos:
+    enabled: true
+    sound: true
+    sound_file: "/System/Library/Sounds/Glass.aiff"

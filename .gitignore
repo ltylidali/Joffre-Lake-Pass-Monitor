@@ -1,0 +1,10 @@
+.env
+.venv/
+.venv-*/
+debug/
+.browser-home/
+__pycache__/
+*.pyc
+.DS_Store
+playwright-report/
+test-results/
