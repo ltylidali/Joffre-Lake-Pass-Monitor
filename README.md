@@ -19,6 +19,28 @@ This monitor:
 
 The final booking is always completed manually by the user.
 
+## Screenshots
+
+### Full state
+
+![Pass full state](assets/pass-full.png)
+
+### Available state
+
+![Pass low availability state](assets/pass-low.png)
+
+### Telegram alert
+
+![Telegram alert](assets/telegram-alert.PNG)
+
+Example availability states:
+
+```text
+Pass availability - Full  -> not available
+Pass availability - Low   -> available
+```
+
+Do not upload screenshots containing your Telegram token, chat ID, browser cookies, or personal information.
 
 ## Project Structure
 
@@ -31,6 +53,7 @@ joffre-lakes-pass-monitor/
   requirements.txt
   README.md
   .gitignore
+  assets/
   debug/
 ```
 
